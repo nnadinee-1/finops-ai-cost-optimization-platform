@@ -1,21 +1,42 @@
 import json
 
 
+DATA_FILE = "cost-anomaly-alerting-pack/data/generated_cost_data.json"
+
+
+def calculate_severity(increase_percentage):
+    if increase_percentage >= 100:
+        return "critical"
+    elif increase_percentage >= 50:
+        return "high"
+    elif increase_percentage >= 30:
+        return "medium"
+    else:
+        return "low"
+
+
+def is_anomaly(severity):
+    return severity in ["medium", "high", "critical"]
+
+
+def build_explanation(anomaly, increase_percentage):
+    if anomaly:
+        return (
+            f"Daily cost increased by {round(increase_percentage, 2)}% "
+            "compared to the 7-day average, which indicates a cost anomaly."
+        )
+
+    return "Daily cost is within the expected range compared to the 7-day average."
+
+
 def detect_cost_anomaly(record):
     daily_cost = record["cost"]["daily_cost"]
     avg_cost = record["cost"]["avg_daily_cost_last_7_days"]
 
     increase_percentage = ((daily_cost - avg_cost) / avg_cost) * 100
-    anomaly = daily_cost > avg_cost * 1.5
 
-    if increase_percentage >= 100:
-        severity = "critical"
-    elif increase_percentage >= 50:
-        severity = "high"
-    elif increase_percentage >= 30:
-        severity = "medium"
-    else:
-        severity = "low"
+    severity = calculate_severity(increase_percentage)
+    anomaly = is_anomaly(severity)
 
     return {
         "pack_name": "cost_anomaly_alerting",
@@ -23,7 +44,7 @@ def detect_cost_anomaly(record):
         "namespace": record["namespace"],
         "problem_type": "cost_anomaly",
         "severity": severity,
-        "confidence": 0.9,
+        "confidence": 0.9 if anomaly else 0.75,
         "detected": anomaly,
         "evidence": {
             "daily_cost": daily_cost,
@@ -35,9 +56,9 @@ def detect_cost_anomaly(record):
             "action": "investigate_cost_spike" if anomaly else "no_action",
             "current_value": f"${daily_cost}/day",
             "recommended_value": f"${avg_cost}/day baseline",
-            "estimated_daily_savings": round(daily_cost - avg_cost, 2)
+            "estimated_daily_savings": round(max(daily_cost - avg_cost, 0), 2)
         },
-        "explanation": "Daily cost is significantly higher than the 7-day average.",
+        "explanation": build_explanation(anomaly, increase_percentage),
         "automation": {
             "can_automate": anomaly,
             "risk_level": "medium" if anomaly else "low",
@@ -46,9 +67,10 @@ def detect_cost_anomaly(record):
     }
 
 
-with open("cost-anomaly-alerting-pack/data/generated_cost_data.json", "r") as file:
-    records = json.load(file)
+if __name__ == "__main__":
+    with open(DATA_FILE, "r") as file:
+        records = json.load(file)
 
-for record in records:
-    result = detect_cost_anomaly(record)
-    print(json.dumps(result, indent=2))
+    for record in records:
+        result = detect_cost_anomaly(record)
+        print(json.dumps(result, indent=2))
