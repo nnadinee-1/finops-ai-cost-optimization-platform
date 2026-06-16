@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-06-01T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 5.2,
+      "avg_daily_cost_last_7_days": 5.0
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.8,
+      "memory_cost": 1.2,
+      "replica_cost": 1.7,
+      "storage_cost": 0.5
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-02T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 6
+    },
+    "cost": {
+      "daily_cost": 18.0,
+      "avg_daily_cost_last_7_days": 5.0
+    },
+    "cost_drivers": {
+      "cpu_cost": 5.5,
+      "memory_cost": 3.0,
+      "replica_cost": 8.5,
+      "storage_cost": 1.0
+    },
+    "expected_behavior": "critical_anomaly"
+  }
+]
