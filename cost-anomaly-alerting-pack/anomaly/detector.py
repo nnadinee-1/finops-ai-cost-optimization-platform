@@ -46,7 +46,7 @@ def detect_cost_anomaly(record):
     }
 
 
-with open("cost-anomaly-alerting-pack/data/mock_cost_data.json", "r") as file:
+with open("cost-anomaly-alerting-pack/data/generated_cost_data.json", "r") as file:
     records = json.load(file)
 
 for record in records:

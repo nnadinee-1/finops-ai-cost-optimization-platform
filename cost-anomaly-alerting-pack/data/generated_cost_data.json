@@ -1,0 +1,3152 @@
+[
+  {
+    "timestamp": "2026-06-01T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 6.18,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.8,
+      "memory_cost": 1.84,
+      "replica_cost": 2.1,
+      "storage_cost": 0.44
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-01T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 2.52,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.69,
+      "memory_cost": 0.53,
+      "replica_cost": 0.77,
+      "storage_cost": 0.53
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-01T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 7.6,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.52,
+      "memory_cost": 1.79,
+      "replica_cost": 1.98,
+      "storage_cost": 1.31
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-01T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.93,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.54,
+      "memory_cost": 1.63,
+      "replica_cost": 1.71,
+      "storage_cost": 1.05
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-01T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.39,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.28,
+      "memory_cost": 1.2,
+      "replica_cost": 1.26,
+      "storage_cost": 0.65
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-02T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.67,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.7,
+      "memory_cost": 1.51,
+      "replica_cost": 1.66,
+      "storage_cost": 0.8
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-02T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 3.98,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.19,
+      "memory_cost": 1.09,
+      "replica_cost": 1.54,
+      "storage_cost": 0.16
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-02T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 7.09,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.2,
+      "memory_cost": 1.67,
+      "replica_cost": 2.08,
+      "storage_cost": 1.14
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-02T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 5.16,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.74,
+      "memory_cost": 1.08,
+      "replica_cost": 1.65,
+      "storage_cost": 0.69
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-02T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 3.89,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.22,
+      "memory_cost": 1.06,
+      "replica_cost": 1.48,
+      "storage_cost": 0.13
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-03T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 6.88,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.88,
+      "memory_cost": 1.54,
+      "replica_cost": 2.71,
+      "storage_cost": 0.75
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-03T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 3.66,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.13,
+      "memory_cost": 1.0,
+      "replica_cost": 1.33,
+      "storage_cost": 0.2
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-03T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 8.89,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.59,
+      "memory_cost": 1.87,
+      "replica_cost": 3.51,
+      "storage_cost": 0.92
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-03T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.32,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.36,
+      "memory_cost": 1.22,
+      "replica_cost": 1.62,
+      "storage_cost": 0.12
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-03T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 3.98,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.18,
+      "memory_cost": 0.85,
+      "replica_cost": 1.01,
+      "storage_cost": 0.94
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-04T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 5.36,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.87,
+      "memory_cost": 1.14,
+      "replica_cost": 1.63,
+      "storage_cost": 0.72
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-04T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 3.98,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.08,
+      "memory_cost": 0.99,
+      "replica_cost": 1.47,
+      "storage_cost": 0.44
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-04T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 8.75,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.48,
+      "memory_cost": 2.16,
+      "replica_cost": 2.85,
+      "storage_cost": 1.26
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-04T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 5.69,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.43,
+      "memory_cost": 1.27,
+      "replica_cost": 2.09,
+      "storage_cost": 0.9
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-04T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 3.47,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.09,
+      "memory_cost": 0.88,
+      "replica_cost": 1.06,
+      "storage_cost": 0.44
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-05T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 6.13,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.54,
+      "memory_cost": 1.7,
+      "replica_cost": 1.61,
+      "storage_cost": 1.28
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-05T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 2.52,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.72,
+      "memory_cost": 0.57,
+      "replica_cost": 0.72,
+      "storage_cost": 0.51
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-05T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 8.99,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.76,
+      "memory_cost": 2.29,
+      "replica_cost": 3.35,
+      "storage_cost": 0.59
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-05T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 4.41,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.2,
+      "memory_cost": 1.05,
+      "replica_cost": 1.71,
+      "storage_cost": 0.45
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-05T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.62,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.18,
+      "memory_cost": 1.26,
+      "replica_cost": 1.75,
+      "storage_cost": 0.43
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-06T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 6.18,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.94,
+      "memory_cost": 1.76,
+      "replica_cost": 2.34,
+      "storage_cost": 0.14
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-06T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 2.47,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.66,
+      "memory_cost": 0.67,
+      "replica_cost": 0.66,
+      "storage_cost": 0.48
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-06T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 7.56,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.2,
+      "memory_cost": 2.08,
+      "replica_cost": 2.76,
+      "storage_cost": 0.52
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-06T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 5.79,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.92,
+      "memory_cost": 1.64,
+      "replica_cost": 2.16,
+      "storage_cost": 0.07
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-06T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.6,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.57,
+      "memory_cost": 0.93,
+      "replica_cost": 1.34,
+      "storage_cost": 0.76
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-07T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 6.95,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.79,
+      "memory_cost": 2.08,
+      "replica_cost": 2.27,
+      "storage_cost": 0.81
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-07T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 2.52,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.65,
+      "memory_cost": 0.51,
+      "replica_cost": 0.65,
+      "storage_cost": 0.71
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-07T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 7.13,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.26,
+      "memory_cost": 1.44,
+      "replica_cost": 2.29,
+      "storage_cost": 1.14
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-07T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 4.81,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.3,
+      "memory_cost": 1.06,
+      "replica_cost": 1.47,
+      "storage_cost": 0.98
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-07T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.93,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.6,
+      "memory_cost": 1.35,
+      "replica_cost": 1.51,
+      "storage_cost": 0.47
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-08T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 6.53,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.98,
+      "memory_cost": 1.5,
+      "replica_cost": 1.64,
+      "storage_cost": 1.41
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-08T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 3.42,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.07,
+      "memory_cost": 0.69,
+      "replica_cost": 1.29,
+      "storage_cost": 0.37
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-08T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 8.42,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.48,
+      "memory_cost": 2.27,
+      "replica_cost": 2.35,
+      "storage_cost": 1.32
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-08T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.49,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.86,
+      "memory_cost": 1.46,
+      "replica_cost": 1.82,
+      "storage_cost": 0.35
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-08T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.13,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.08,
+      "memory_cost": 1.23,
+      "replica_cost": 1.43,
+      "storage_cost": 0.39
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-09T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 5.06,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.34,
+      "memory_cost": 1.39,
+      "replica_cost": 1.98,
+      "storage_cost": 0.35
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-09T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 3.37,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.87,
+      "memory_cost": 0.95,
+      "replica_cost": 1.14,
+      "storage_cost": 0.41
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-09T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 7.48,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.31,
+      "memory_cost": 2.11,
+      "replica_cost": 1.91,
+      "storage_cost": 1.15
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-09T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 5.05,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.36,
+      "memory_cost": 1.27,
+      "replica_cost": 1.32,
+      "storage_cost": 1.1
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-09T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 4.11,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.29,
+      "memory_cost": 0.89,
+      "replica_cost": 1.46,
+      "storage_cost": 0.47
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-10T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 6.38,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.04,
+      "memory_cost": 1.91,
+      "replica_cost": 2.45,
+      "storage_cost": -0.02
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-10T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 2.68,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.78,
+      "memory_cost": 0.74,
+      "replica_cost": 0.76,
+      "storage_cost": 0.4
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-10T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 7.15,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.15,
+      "memory_cost": 1.9,
+      "replica_cost": 2.6,
+      "storage_cost": 0.5
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-10T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 4.54,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.55,
+      "memory_cost": 1.07,
+      "replica_cost": 1.17,
+      "storage_cost": 0.75
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-10T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 3.46,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.96,
+      "memory_cost": 0.83,
+      "replica_cost": 1.34,
+      "storage_cost": 0.33
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-11T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 6.06,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.58,
+      "memory_cost": 1.4,
+      "replica_cost": 2.23,
+      "storage_cost": 0.85
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-11T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 2.69,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.79,
+      "memory_cost": 0.67,
+      "replica_cost": 0.86,
+      "storage_cost": 0.37
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-11T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 7.52,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.21,
+      "memory_cost": 1.87,
+      "replica_cost": 2.25,
+      "storage_cost": 1.19
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-11T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 5.86,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.0,
+      "memory_cost": 1.69,
+      "replica_cost": 2.32,
+      "storage_cost": -0.15
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-11T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 3.77,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.26,
+      "memory_cost": 1.03,
+      "replica_cost": 1.0,
+      "storage_cost": 0.48
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-12T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 5.69,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.8,
+      "memory_cost": 1.64,
+      "replica_cost": 2.16,
+      "storage_cost": 0.09
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-12T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 2.77,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.91,
+      "memory_cost": 0.81,
+      "replica_cost": 0.84,
+      "storage_cost": 0.21
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-12T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 7.67,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.68,
+      "memory_cost": 1.56,
+      "replica_cost": 1.96,
+      "storage_cost": 1.47
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-12T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 4.23,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.33,
+      "memory_cost": 1.11,
+      "replica_cost": 1.66,
+      "storage_cost": 0.13
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-12T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 4.13,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.21,
+      "memory_cost": 0.89,
+      "replica_cost": 1.2,
+      "storage_cost": 0.83
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-13T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 6.15,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.77,
+      "memory_cost": 1.53,
+      "replica_cost": 1.74,
+      "storage_cost": 1.11
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-13T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 2.13,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.65,
+      "memory_cost": 0.56,
+      "replica_cost": 0.73,
+      "storage_cost": 0.19
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-13T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 8.52,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.52,
+      "memory_cost": 2.22,
+      "replica_cost": 2.89,
+      "storage_cost": 0.89
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-13T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.19,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.38,
+      "memory_cost": 1.29,
+      "replica_cost": 1.87,
+      "storage_cost": 0.65
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-13T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 4.72,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.33,
+      "memory_cost": 1.38,
+      "replica_cost": 1.44,
+      "storage_cost": 0.57
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-14T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 5.47,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.88,
+      "memory_cost": 1.35,
+      "replica_cost": 1.62,
+      "storage_cost": 0.62
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-14T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 3.21,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.95,
+      "memory_cost": 0.8,
+      "replica_cost": 0.95,
+      "storage_cost": 0.51
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-14T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 8.48,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.88,
+      "memory_cost": 2.06,
+      "replica_cost": 2.51,
+      "storage_cost": 1.03
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-14T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 4.09,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.43,
+      "memory_cost": 1.16,
+      "replica_cost": 1.07,
+      "storage_cost": 0.43
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-14T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 3.56,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.2,
+      "memory_cost": 0.83,
+      "replica_cost": 1.18,
+      "storage_cost": 0.35
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-15T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 6.92,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.87,
+      "memory_cost": 1.87,
+      "replica_cost": 2.39,
+      "storage_cost": 0.79
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-15T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 3.5,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.13,
+      "memory_cost": 0.86,
+      "replica_cost": 1.24,
+      "storage_cost": 0.27
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-15T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 8.91,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.55,
+      "memory_cost": 2.22,
+      "replica_cost": 3.49,
+      "storage_cost": 0.65
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-15T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 5.1,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.4,
+      "memory_cost": 1.37,
+      "replica_cost": 1.29,
+      "storage_cost": 1.04
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-15T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 4.88,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.71,
+      "memory_cost": 1.0,
+      "replica_cost": 1.62,
+      "storage_cost": 0.55
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-16T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 6.06,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.67,
+      "memory_cost": 1.43,
+      "replica_cost": 1.98,
+      "storage_cost": 0.98
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-16T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 3.47,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.98,
+      "memory_cost": 0.99,
+      "replica_cost": 1.26,
+      "storage_cost": 0.24
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-16T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 8.02,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.23,
+      "memory_cost": 1.65,
+      "replica_cost": 2.88,
+      "storage_cost": 1.26
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-16T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.06,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.52,
+      "memory_cost": 1.15,
+      "replica_cost": 1.46,
+      "storage_cost": 0.93
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-16T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 4.13,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.3,
+      "memory_cost": 0.93,
+      "replica_cost": 1.25,
+      "storage_cost": 0.65
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-17T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.24,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.72,
+      "memory_cost": 1.27,
+      "replica_cost": 1.61,
+      "storage_cost": 0.64
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-17T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 3.03,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.01,
+      "memory_cost": 0.9,
+      "replica_cost": 0.77,
+      "storage_cost": 0.35
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-17T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 8.84,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.84,
+      "memory_cost": 2.6,
+      "replica_cost": 2.85,
+      "storage_cost": 0.55
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-17T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 5.19,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.61,
+      "memory_cost": 1.3,
+      "replica_cost": 1.49,
+      "storage_cost": 0.79
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-17T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 4.02,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.08,
+      "memory_cost": 1.15,
+      "replica_cost": 1.55,
+      "storage_cost": 0.24
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-18T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 5.17,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.31,
+      "memory_cost": 1.23,
+      "replica_cost": 1.96,
+      "storage_cost": 0.67
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-18T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 3.61,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.98,
+      "memory_cost": 0.98,
+      "replica_cost": 1.28,
+      "storage_cost": 0.37
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-18T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 7.31,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.23,
+      "memory_cost": 1.94,
+      "replica_cost": 1.86,
+      "storage_cost": 1.28
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-18T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 4.24,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.18,
+      "memory_cost": 1.08,
+      "replica_cost": 1.56,
+      "storage_cost": 0.42
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-18T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 3.76,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.14,
+      "memory_cost": 0.79,
+      "replica_cost": 1.02,
+      "storage_cost": 0.81
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-19T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 5.05,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.36,
+      "memory_cost": 1.41,
+      "replica_cost": 1.82,
+      "storage_cost": 0.46
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-19T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 3.96,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.22,
+      "memory_cost": 1.13,
+      "replica_cost": 1.39,
+      "storage_cost": 0.22
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-19T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 7.62,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.55,
+      "memory_cost": 2.0,
+      "replica_cost": 2.64,
+      "storage_cost": 0.43
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-19T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 4.4,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.13,
+      "memory_cost": 1.13,
+      "replica_cost": 1.38,
+      "storage_cost": 0.76
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-19T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 3.9,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.02,
+      "memory_cost": 1.15,
+      "replica_cost": 1.31,
+      "storage_cost": 0.42
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-20T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 5.27,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.58,
+      "memory_cost": 1.32,
+      "replica_cost": 1.57,
+      "storage_cost": 0.8
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-20T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 3.09,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.07,
+      "memory_cost": 0.77,
+      "replica_cost": 1.01,
+      "storage_cost": 0.24
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-20T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 8.99,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.54,
+      "memory_cost": 2.18,
+      "replica_cost": 2.4,
+      "storage_cost": 1.87
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-20T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.6,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.64,
+      "memory_cost": 1.28,
+      "replica_cost": 2.06,
+      "storage_cost": 0.62
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-20T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.44,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.31,
+      "memory_cost": 1.18,
+      "replica_cost": 1.16,
+      "storage_cost": 0.79
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-21T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 21.0,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 6.98,
+      "memory_cost": 6.11,
+      "replica_cost": 5.49,
+      "storage_cost": 2.42
+    },
+    "expected_behavior": "critical_anomaly"
+  },
+  {
+    "timestamp": "2026-06-21T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 3.65,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.27,
+      "memory_cost": 1.08,
+      "replica_cost": 1.24,
+      "storage_cost": 0.06
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-21T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 8.36,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.68,
+      "memory_cost": 2.48,
+      "replica_cost": 2.46,
+      "storage_cost": 0.74
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-21T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 4.18,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.1,
+      "memory_cost": 1.18,
+      "replica_cost": 1.54,
+      "storage_cost": 0.36
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-21T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.45,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.26,
+      "memory_cost": 1.26,
+      "replica_cost": 1.21,
+      "storage_cost": 0.72
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-22T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 5.47,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.61,
+      "memory_cost": 1.2,
+      "replica_cost": 1.47,
+      "storage_cost": 1.19
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-22T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 3.18,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.89,
+      "memory_cost": 0.84,
+      "replica_cost": 1.09,
+      "storage_cost": 0.36
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-22T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 8.37,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.86,
+      "memory_cost": 2.17,
+      "replica_cost": 2.93,
+      "storage_cost": 0.41
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-22T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.11,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.35,
+      "memory_cost": 1.37,
+      "replica_cost": 1.36,
+      "storage_cost": 1.03
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-22T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 3.7,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.04,
+      "memory_cost": 0.87,
+      "replica_cost": 1.14,
+      "storage_cost": 0.65
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-23T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 6.24,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.83,
+      "memory_cost": 1.58,
+      "replica_cost": 1.96,
+      "storage_cost": 0.87
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-23T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 3.99,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.12,
+      "memory_cost": 0.83,
+      "replica_cost": 1.3,
+      "storage_cost": 0.74
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-23T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 7.08,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.21,
+      "memory_cost": 1.95,
+      "replica_cost": 2.24,
+      "storage_cost": 0.68
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-23T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.8,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.22,
+      "memory_cost": 1.31,
+      "replica_cost": 1.59,
+      "storage_cost": 0.68
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-23T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 4.79,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.33,
+      "memory_cost": 1.17,
+      "replica_cost": 1.27,
+      "storage_cost": 1.02
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-24T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 5.15,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.36,
+      "memory_cost": 1.16,
+      "replica_cost": 1.89,
+      "storage_cost": 0.74
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-24T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 3.0,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.98,
+      "memory_cost": 0.76,
+      "replica_cost": 1.05,
+      "storage_cost": 0.21
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-24T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 8.59,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.25,
+      "memory_cost": 2.07,
+      "replica_cost": 2.81,
+      "storage_cost": 1.46
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-24T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.55,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.58,
+      "memory_cost": 1.42,
+      "replica_cost": 1.5,
+      "storage_cost": 1.05
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-24T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 4.93,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.29,
+      "memory_cost": 1.29,
+      "replica_cost": 1.41,
+      "storage_cost": 0.94
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-25T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 6.54,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.09,
+      "memory_cost": 1.91,
+      "replica_cost": 2.47,
+      "storage_cost": 0.07
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-25T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 2.26,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.79,
+      "memory_cost": 0.68,
+      "replica_cost": 0.8,
+      "storage_cost": -0.01
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-25T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 8.11,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.25,
+      "memory_cost": 2.26,
+      "replica_cost": 2.15,
+      "storage_cost": 1.45
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-25T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 5.48,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.79,
+      "memory_cost": 1.56,
+      "replica_cost": 1.71,
+      "storage_cost": 0.42
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-25T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 4.56,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.59,
+      "memory_cost": 1.11,
+      "replica_cost": 1.56,
+      "storage_cost": 0.3
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-26T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 6.53,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.01,
+      "memory_cost": 1.72,
+      "replica_cost": 2.15,
+      "storage_cost": 0.65
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-26T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 2.88,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.89,
+      "memory_cost": 0.62,
+      "replica_cost": 1.08,
+      "storage_cost": 0.29
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-26T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 7.36,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.88,
+      "memory_cost": 1.84,
+      "replica_cost": 2.53,
+      "storage_cost": 1.11
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-26T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 5.14,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.43,
+      "memory_cost": 1.16,
+      "replica_cost": 1.72,
+      "storage_cost": 0.83
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-26T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 3.54,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.05,
+      "memory_cost": 0.84,
+      "replica_cost": 1.19,
+      "storage_cost": 0.46
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-27T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 5.36,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.48,
+      "memory_cost": 1.39,
+      "replica_cost": 1.48,
+      "storage_cost": 1.01
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-27T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 3.84,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.16,
+      "memory_cost": 0.82,
+      "replica_cost": 1.0,
+      "storage_cost": 0.86
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-27T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 7.85,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.08,
+      "memory_cost": 2.23,
+      "replica_cost": 2.8,
+      "storage_cost": 0.74
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-27T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.28,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.6,
+      "memory_cost": 1.51,
+      "replica_cost": 1.56,
+      "storage_cost": 0.61
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-27T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 4.52,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.35,
+      "memory_cost": 1.18,
+      "replica_cost": 1.58,
+      "storage_cost": 0.41
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-28T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 3
+    },
+    "cost": {
+      "daily_cost": 5.91,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.05,
+      "memory_cost": 1.36,
+      "replica_cost": 1.79,
+      "storage_cost": 0.71
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-28T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 2.06,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.67,
+      "memory_cost": 0.59,
+      "replica_cost": 0.73,
+      "storage_cost": 0.07
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-28T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 8.66,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.21,
+      "memory_cost": 2.49,
+      "replica_cost": 2.48,
+      "storage_cost": 1.48
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-28T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 5.55,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.47,
+      "memory_cost": 1.31,
+      "replica_cost": 1.76,
+      "storage_cost": 1.01
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-28T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 3.24,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.02,
+      "memory_cost": 0.85,
+      "replica_cost": 1.2,
+      "storage_cost": 0.17
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-29T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 5.31,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.44,
+      "memory_cost": 1.56,
+      "replica_cost": 1.69,
+      "storage_cost": 0.62
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-29T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 2.39,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 0.82,
+      "memory_cost": 0.61,
+      "replica_cost": 0.85,
+      "storage_cost": 0.11
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-29T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 7.36,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.91,
+      "memory_cost": 1.54,
+      "replica_cost": 2.01,
+      "storage_cost": 1.9
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-29T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 4.4,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.36,
+      "memory_cost": 1.23,
+      "replica_cost": 1.27,
+      "storage_cost": 0.54
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-29T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 4.59,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.56,
+      "memory_cost": 1.21,
+      "replica_cost": 1.63,
+      "storage_cost": 0.19
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-30T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "backend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 5.91,
+      "avg_daily_cost_last_7_days": 6
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.55,
+      "memory_cost": 1.64,
+      "replica_cost": 1.51,
+      "storage_cost": 1.21
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-30T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "frontend-service",
+      "type": "deployment",
+      "replicas": 2
+    },
+    "cost": {
+      "daily_cost": 3.52,
+      "avg_daily_cost_last_7_days": 3
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.19,
+      "memory_cost": 0.79,
+      "replica_cost": 1.07,
+      "storage_cost": 0.47
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-30T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "payment-service",
+      "type": "deployment",
+      "replicas": 5
+    },
+    "cost": {
+      "daily_cost": 8.32,
+      "avg_daily_cost_last_7_days": 8
+    },
+    "cost_drivers": {
+      "cpu_cost": 2.33,
+      "memory_cost": 1.86,
+      "replica_cost": 2.18,
+      "storage_cost": 1.95
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-30T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "worker-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 4.84,
+      "avg_daily_cost_last_7_days": 5
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.68,
+      "memory_cost": 1.43,
+      "replica_cost": 1.56,
+      "storage_cost": 0.17
+    },
+    "expected_behavior": "normal"
+  },
+  {
+    "timestamp": "2026-06-30T00:00:00Z",
+    "cluster_id": "dev-cluster-01",
+    "namespace": "production",
+    "workload": {
+      "name": "cache-service",
+      "type": "deployment",
+      "replicas": 4
+    },
+    "cost": {
+      "daily_cost": 4.07,
+      "avg_daily_cost_last_7_days": 4
+    },
+    "cost_drivers": {
+      "cpu_cost": 1.31,
+      "memory_cost": 1.16,
+      "replica_cost": 1.19,
+      "storage_cost": 0.41
+    },
+    "expected_behavior": "normal"
+  }
+]
