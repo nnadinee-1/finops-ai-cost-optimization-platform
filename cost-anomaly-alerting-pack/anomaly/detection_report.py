@@ -4,8 +4,7 @@ from collections import Counter
 from detector import detect_cost_anomaly
 
 
-DATA_FILE = "cost-anomaly-alerting-pack/data/generated_cost_data.json"
-
+DATA_FILE = "data/mock/infrastructure_metrics.json"
 
 with open(DATA_FILE, "r") as file:
     records = json.load(file)

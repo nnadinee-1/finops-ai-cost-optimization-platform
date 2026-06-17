@@ -60,6 +60,11 @@ def generate_record(service, day_index):
 
     storage_gb = round(random.uniform(20, 150), 2)
     log_gb = round(random.uniform(1, 15), 2)
+    baseline_replicas = replicas
+    baseline_storage_gb = storage_gb
+    baseline_log_gb = log_gb
+    baseline_cpu_request = cpu_request
+    baseline_memory_request = memory_request
 
     scenario = ANOMALY_SCENARIOS.get((service, day_index), "normal")
 
@@ -92,8 +97,22 @@ def generate_record(service, day_index):
         memory_usage = int(memory_request * random.uniform(0.7, 1.1))
         traffic = random.randint(2000, 4000)
 
-    daily_cost = calculate_cost(cpu_request, memory_request, replicas, storage_gb, log_gb)
+    baseline_cost = calculate_cost(
+        baseline_cpu_request,
+        baseline_memory_request,
+        baseline_replicas,
+        baseline_storage_gb,
+        baseline_log_gb
+    )
 
+    daily_cost = calculate_cost(
+        cpu_request,
+        memory_request,
+        replicas,
+        storage_gb,
+        log_gb
+    )
+    
     return {
         "timestamp": timestamp,
         "cluster_id": "dev-cluster-01",
@@ -118,7 +137,7 @@ def generate_record(service, day_index):
         },
         "history": {
             "avg_daily_cost_last_7_days": round(
-                daily_cost * random.uniform(0.75, 1.05), 2
+                daily_cost * random.uniform(0.9, 1.1), 2
             )
         },
         "metadata": {
