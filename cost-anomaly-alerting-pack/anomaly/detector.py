@@ -71,6 +71,11 @@ if __name__ == "__main__":
     with open(DATA_FILE, "r") as file:
         records = json.load(file)
 
-    for record in records:
-        result = detect_cost_anomaly(record)
-        print(json.dumps(result, indent=2))
+    results = [detect_cost_anomaly(record) for record in records]
+
+    output_file = "cost-anomaly-alerting-pack/output/anomaly_results.json"
+
+    with open(output_file, "w") as file:
+        json.dump(results, file, indent=2)
+
+    print(f"Saved {len(results)} anomaly detection results to {output_file}")
