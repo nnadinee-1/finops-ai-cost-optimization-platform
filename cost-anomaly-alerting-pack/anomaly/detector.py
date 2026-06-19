@@ -1,6 +1,6 @@
 import json
 from risk_scoring import calculate_risk_score, severity_from_score
-
+from recommendation_engine import build_recommendation
 
 DATA_FILE = "data/mock/infrastructure_metrics.json"
 OUTPUT_FILE = "cost-anomaly-alerting-pack/output/anomaly_results.json"
@@ -17,10 +17,15 @@ def build_explanation(anomaly, increase_percentage):
 
 
 def detect_cost_anomaly(record):
+    
     daily_cost = record["cost"]["daily_cost"]
     avg_cost = record["history"]["avg_daily_cost_last_7_days"]
 
     risk = calculate_risk_score(record)
+    recommendation = build_recommendation(
+    "cost_anomaly",
+    risk
+        )
 
     increase_percentage = risk["increase_percentage"]
     severity = severity_from_score(risk["risk_score"])
@@ -46,12 +51,7 @@ def detect_cost_anomaly(record):
             "resource_usage": record["resource_usage"],
             "expected_behavior": record["expected_behavior"]
         },
-        "recommendation": {
-            "action": "investigate_cost_risk" if anomaly else "no_action",
-            "current_value": f"${daily_cost}/day",
-            "recommended_value": f"${avg_cost}/day baseline",
-            "estimated_daily_savings": round(max(daily_cost - avg_cost, 0), 2)
-        },
+        "recommendation": recommendation,
         "explanation": build_explanation(anomaly, increase_percentage),
         "automation": {
             "can_automate": False,
