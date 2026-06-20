@@ -1,0 +1,1552 @@
+[
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 40.33,
+      "memory_usage": 65.28,
+      "disk_io": 15.52,
+      "network_io": 6.78,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 18.97,
+      "memory_usage": 49.29,
+      "disk_io": 3.42,
+      "network_io": 6.01,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 26.47,
+      "memory_usage": 32.11,
+      "disk_io": 8.75,
+      "network_io": 4.88,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 24.46,
+      "memory_usage": 24.7,
+      "disk_io": 8.35,
+      "network_io": 5.88,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 17.21,
+      "memory_usage": 50.1,
+      "disk_io": 7.03,
+      "network_io": 5.11,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 14.89,
+      "memory_usage": 27.28,
+      "disk_io": 13.34,
+      "network_io": 4.44,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Backup",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 27.58,
+      "memory_usage": 84.52,
+      "disk_io": 30.61,
+      "network_io": 4.74,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Video_Streaming",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 17.9,
+      "memory_usage": 30.8,
+      "disk_io": 14.42,
+      "network_io": 9.61,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 29.05,
+      "memory_usage": 37.77,
+      "disk_io": 15.02,
+      "network_io": 4.02,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Video_Streaming",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 31.05,
+      "memory_usage": 34.57,
+      "disk_io": 10.56,
+      "network_io": 22.02,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Crypto_Mining",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "high",
+    "confidence": 1.0,
+    "detected": true,
+    "evidence": {
+      "cpu_usage": 81.25,
+      "memory_usage": 17.75,
+      "disk_io": 14.06,
+      "network_io": 4.99,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 1.0
+    },
+    "recommendation": {
+      "root_cause": "AI model detected abnormal cloud resource behavior.",
+      "recommendation": "Investigate workload resource usage and possible cost impact.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "medium",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 30.31,
+      "memory_usage": 43.44,
+      "disk_io": 8.64,
+      "network_io": 4.81,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 30.3,
+      "memory_usage": 39.28,
+      "disk_io": 18.58,
+      "network_io": 5.12,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Video_Streaming",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 32.05,
+      "memory_usage": 26.68,
+      "disk_io": 16.13,
+      "network_io": 24.54,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Backup",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 28.85,
+      "memory_usage": 84.14,
+      "disk_io": 31.15,
+      "network_io": 5.8,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Crypto_Mining",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "high",
+    "confidence": 1.0,
+    "detected": true,
+    "evidence": {
+      "cpu_usage": 88.64,
+      "memory_usage": 31.62,
+      "disk_io": 0.45,
+      "network_io": 3.8,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 1.0
+    },
+    "recommendation": {
+      "root_cause": "AI model detected abnormal cloud resource behavior.",
+      "recommendation": "Investigate workload resource usage and possible cost impact.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "medium",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 21.34,
+      "memory_usage": 45.49,
+      "disk_io": 4.31,
+      "network_io": 4.88,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Video_Streaming",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 34.97,
+      "memory_usage": 25.85,
+      "disk_io": 5.81,
+      "network_io": 15.13,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 36.91,
+      "memory_usage": 45.45,
+      "disk_io": 12.74,
+      "network_io": 7.3,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Video_Streaming",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 18.98,
+      "memory_usage": 52.51,
+      "disk_io": 17.56,
+      "network_io": 19.7,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 26.53,
+      "memory_usage": 53.11,
+      "disk_io": 5.15,
+      "network_io": 4.22,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 20.67,
+      "memory_usage": 30.35,
+      "disk_io": 16.73,
+      "network_io": 3.26,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Video_Streaming",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 36.21,
+      "memory_usage": 32.76,
+      "disk_io": 13.98,
+      "network_io": 17.46,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 19.62,
+      "memory_usage": 21.41,
+      "disk_io": 7.99,
+      "network_io": 3.21,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 50.62,
+      "memory_usage": 37.4,
+      "disk_io": 3.5,
+      "network_io": 4.37,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 29.52,
+      "memory_usage": 38.57,
+      "disk_io": 0.0,
+      "network_io": 5.35,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 40.2,
+      "memory_usage": 29.85,
+      "disk_io": 11.4,
+      "network_io": 5.47,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Crypto_Mining",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "high",
+    "confidence": 1.0,
+    "detected": true,
+    "evidence": {
+      "cpu_usage": 83.95,
+      "memory_usage": 31.91,
+      "disk_io": 20.21,
+      "network_io": 4.74,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 1.0
+    },
+    "recommendation": {
+      "root_cause": "AI model detected abnormal cloud resource behavior.",
+      "recommendation": "Investigate workload resource usage and possible cost impact.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "medium",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Video_Streaming",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 29.79,
+      "memory_usage": 33.16,
+      "disk_io": 18.98,
+      "network_io": 16.42,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 17.34,
+      "memory_usage": 44.95,
+      "disk_io": 14.98,
+      "network_io": 5.28,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 33.79,
+      "memory_usage": 40.04,
+      "disk_io": 8.17,
+      "network_io": 4.61,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 31.78,
+      "memory_usage": 50.51,
+      "disk_io": 5.64,
+      "network_io": 5.02,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Crypto_Mining",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.06,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 78.75,
+      "memory_usage": 32.3,
+      "disk_io": 1.75,
+      "network_io": 3.3,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.06
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 37.76,
+      "memory_usage": 43.98,
+      "disk_io": 9.93,
+      "network_io": 4.3,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 25.06,
+      "memory_usage": 29.51,
+      "disk_io": 7.79,
+      "network_io": 5.16,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Backup",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 39.93,
+      "memory_usage": 71.92,
+      "disk_io": 51.08,
+      "network_io": 2.61,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 22.42,
+      "memory_usage": 45.98,
+      "disk_io": 8.32,
+      "network_io": 4.23,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 29.69,
+      "memory_usage": 41.85,
+      "disk_io": 6.69,
+      "network_io": 4.89,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Video_Streaming",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 35.71,
+      "memory_usage": 32.57,
+      "disk_io": 10.76,
+      "network_io": 21.16,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Video_Streaming",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 20.08,
+      "memory_usage": 62.22,
+      "disk_io": 11.97,
+      "network_io": 17.49,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 15.61,
+      "memory_usage": 54.36,
+      "disk_io": 12.81,
+      "network_io": 4.45,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 28.87,
+      "memory_usage": 41.0,
+      "disk_io": 10.32,
+      "network_io": 6.17,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 27.36,
+      "memory_usage": 35.15,
+      "disk_io": 6.05,
+      "network_io": 5.62,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 47.0,
+      "memory_usage": 38.96,
+      "disk_io": 8.68,
+      "network_io": 5.4,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 24.17,
+      "memory_usage": 35.93,
+      "disk_io": 13.63,
+      "network_io": 4.63,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 33.1,
+      "memory_usage": 60.01,
+      "disk_io": 14.61,
+      "network_io": 4.23,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Web_Service",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 46.55,
+      "memory_usage": 33.39,
+      "disk_io": 14.53,
+      "network_io": 4.59,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Backup",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 27.22,
+      "memory_usage": 73.07,
+      "disk_io": 15.53,
+      "network_io": 3.53,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 40.85,
+      "memory_usage": 53.35,
+      "disk_io": 11.77,
+      "network_io": 4.87,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  },
+  {
+    "pack_name": "ai_cloud_anomaly_prediction",
+    "service": "Database_Query",
+    "namespace": "ai-validation",
+    "problem_type": "ai_predicted_cloud_anomaly",
+    "severity": "normal",
+    "confidence": 0.0,
+    "detected": false,
+    "evidence": {
+      "cpu_usage": 24.8,
+      "memory_usage": 50.17,
+      "disk_io": 3.36,
+      "network_io": 3.77,
+      "hour": 0,
+      "day": 1,
+      "day_of_week": 1,
+      "anomaly_probability": 0.0
+    },
+    "recommendation": {
+      "root_cause": "No abnormal cloud resource behavior detected.",
+      "recommendation": "No action required.",
+      "estimated_daily_savings": 0,
+      "automation_candidate": false,
+      "requires_approval": true
+    },
+    "automation": {
+      "can_automate": false,
+      "risk_level": "low",
+      "requires_approval": true
+    }
+  }
+]
