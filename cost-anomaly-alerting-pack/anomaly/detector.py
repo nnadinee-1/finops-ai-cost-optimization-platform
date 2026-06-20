@@ -22,15 +22,16 @@ def detect_cost_anomaly(record):
     avg_cost = record["history"]["avg_daily_cost_last_7_days"]
 
     risk = calculate_risk_score(record)
-    recommendation = build_recommendation(
-    "cost_anomaly",
-    risk
-        )
 
     increase_percentage = risk["increase_percentage"]
     severity = severity_from_score(risk["risk_score"])
     anomaly = severity in ["medium", "high", "critical"] and increase_percentage >= 20
 
+    recommendation = build_recommendation(
+        "cost_anomaly" if anomaly else "normal",
+        risk
+    )
+    
     return {
         "pack_name": "cost_anomaly_alerting",
         "service": record["workload"]["name"],

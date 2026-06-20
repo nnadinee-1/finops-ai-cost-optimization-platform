@@ -54,5 +54,12 @@ def build_recommendation(problem_type, evidence):
             "estimated_daily_savings": 5,
             "automation_candidate": False
         })
-
+    
+    elif problem_type == "normal":
+        recommendation.update({
+            "root_cause": "No cost or infrastructure risk detected.",
+            "recommendation": "No action required.",
+            "estimated_daily_savings": 0,
+            "automation_candidate": False
+        })
     return recommendation
