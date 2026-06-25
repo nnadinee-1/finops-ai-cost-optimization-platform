@@ -7,6 +7,7 @@
     "severity": "high",
     "confidence": 0.805,
     "detected": true,
+    "explanation": "AI detected abnormal cloud behavior due to high CPU usage, high memory usage, high disk I/O, high network I/O, crypto mining workload behavior.",
     "evidence": {
       "cpu_usage": 95.0,
       "memory_usage": 80.0,
@@ -38,6 +39,7 @@
     "severity": "high",
     "confidence": 0.81,
     "detected": true,
+    "explanation": "AI detected abnormal cloud behavior due to high CPU usage, high disk I/O, high network I/O, crypto mining workload behavior.",
     "evidence": {
       "cpu_usage": 90.0,
       "memory_usage": 70.0,
@@ -69,6 +71,7 @@
     "severity": "normal",
     "confidence": 0.0,
     "detected": false,
+    "explanation": "Resource utilization is within the expected operating range.",
     "evidence": {
       "cpu_usage": 20.0,
       "memory_usage": 30.0,
@@ -100,6 +103,7 @@
     "severity": "normal",
     "confidence": 0.0,
     "detected": false,
+    "explanation": "Resource utilization is within the expected operating range.",
     "evidence": {
       "cpu_usage": 15.0,
       "memory_usage": 25.0,
@@ -131,6 +135,7 @@
     "severity": "normal",
     "confidence": 0.385,
     "detected": false,
+    "explanation": "Resource utilization is within the expected operating range.",
     "evidence": {
       "cpu_usage": 85.0,
       "memory_usage": 60.0,
@@ -162,6 +167,7 @@
     "severity": "normal",
     "confidence": 0.0,
     "detected": false,
+    "explanation": "Resource utilization is within the expected operating range.",
     "evidence": {
       "cpu_usage": 12.0,
       "memory_usage": 20.0,
@@ -193,6 +199,7 @@
     "severity": "normal",
     "confidence": 0.005,
     "detected": false,
+    "explanation": "Resource utilization is within the expected operating range.",
     "evidence": {
       "cpu_usage": 75.0,
       "memory_usage": 65.0,
@@ -224,6 +231,7 @@
     "severity": "normal",
     "confidence": 0.0,
     "detected": false,
+    "explanation": "Resource utilization is within the expected operating range.",
     "evidence": {
       "cpu_usage": 30.0,
       "memory_usage": 40.0,
@@ -255,6 +263,7 @@
     "severity": "high",
     "confidence": 0.815,
     "detected": true,
+    "explanation": "AI detected abnormal cloud behavior due to high CPU usage, high memory usage, high disk I/O, high network I/O, crypto mining workload behavior.",
     "evidence": {
       "cpu_usage": 98.0,
       "memory_usage": 90.0,
@@ -286,6 +295,7 @@
     "severity": "normal",
     "confidence": 0.0,
     "detected": false,
+    "explanation": "Resource utilization is within the expected operating range.",
     "evidence": {
       "cpu_usage": 25.0,
       "memory_usage": 35.0,
